@@ -1,0 +1,12 @@
+const Kelvin = 293; // Here I am calling out a value kelvin which is a constant
+const Celsius = Kelvin - 273; // calling out celsius which is kelvin - 273
+let Fahrenheit = Celsius *(9/5) +32; // defining fahrenheit
+let Newton = Celsius *(33/100);  //define Newton
+
+Fahrenheit = Math.floor(Fahrenheit); // rounds down the decimal point
+
+console.log(`The temperature is  ${Fahrenheit}  degrees Fahrenheit.`);
+
+Newton = Math.floor(Newton); // rounds down the decimal point
+
+console.log(`The temperature is ${Newton} degrees Newton`);
